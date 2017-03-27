@@ -18,7 +18,7 @@ Steps:
    If not, it was created in the home directory of the current user.
 5. Copy the ``prod.config`` file from the root of this project to the new
    directory.
-6. From the command line, run ``cafe-runner github prod --result xml --result-directory .``.
+6. From the command line, run ``cafe-runner github prod --result xml --result-directory .``
 7. Check that the current directory now contains a file named `results.xml`.
    This is a JUnit XML formatted result file that is consumable by Jenkins or
    other CI system that parses JUnit XML results.
