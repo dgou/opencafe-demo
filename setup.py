@@ -7,7 +7,7 @@ setup(
     version='0.0.1',
     description=(
         'This is a working demo of an OpenCafe-based test suite.'),
-    long_description=open('README.md').read(),
+    long_description=open('README.rst').read(),
     author='Daryl Walleck',
     author_email='dwalleck@gmail.com',
     packages=find_packages(),
